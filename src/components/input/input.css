@@ -18,7 +18,7 @@ input:-webkit-autofill {
 }
 
 .input input[type='text'] {
-  border-radius: 8px 0px 0px 8px;
+  border-radius: 0px 8px 8px px;
   flex: 1 1 100%;
 }
 
@@ -29,7 +29,7 @@ input[type='number']::-webkit-inner-spin-button {
 }
 
 .input input[type='date'] {
-  border-radius: 0px;
+  border-radius: 0px 8px 8px 0px;
   min-width: 200px;
   margin-right: 20px;
 }
