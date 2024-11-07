@@ -1,16 +1,17 @@
-import { useState } from 'react'
+import React from 'react';
 import './App.css'
-import { db } from "./firebase/firebaseConfig"; // Adjust path if necessary
-import { doc, setDoc, getDoc } from "firebase/firestore";
+import Header from './components/header/Header';
+import Input from './components/input/Input';
+import ItemList from './components/itemList/ItemList';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-    <h1>Mahmoud Ismail</h1>
-    </>
-  )
+    <div className="App">
+      <Header />
+      <Input />
+      <ItemList />
+    </div>
+  );
 }
 
-export default App
+export default App;
